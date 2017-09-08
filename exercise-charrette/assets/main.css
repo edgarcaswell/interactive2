@@ -3,6 +3,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	background-color: #FF5733;
 }
 
 body {
@@ -18,12 +19,13 @@ body {
 /* items */
 
 .item {
-	height: 300px;
 	width: 300px;
-	background: blue;
+    height: 300px;
+    border-radius: 50%;
+	background: orange;
 	color: yellow;
 
-	margin: 10px;
+	margin: 30px;
 
 	/* comment out 'float: left;' to have items stack in a single column */
 	float: left; 
@@ -34,25 +36,77 @@ body {
 
 /* example buttons */
 
+.toggle{
+
+
+}
+
+#title {
+
+}
+
+
+
 #button-1:hover {
-	transform: rotate(90deg) scale(1.5);
+	transform: rotate(1440deg) scale(.5);
 	opacity: .3;
+	-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-ms-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+transition: all 2s ease-in-out;
+
 }
 
 #button-1:active {
 	background: pink;
 	opacity: 1;
+
 }
 
 /* example buttons */
 
-#button-2::after {
-	content: 'this is added after the content inside the button';
-	color: white;
+#button-2:hover {
+	transform: rotate(1440deg) scale(2);
+	opacity: .3;
+	-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-ms-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+transition: all 2s ease-in-out;
+
+}
+
+#button-2:active {
+	background: pink;
+	opacity: 1;
+}
+
+#button-9:hover {
+
+	transform: scale(.5);
+ 
+     -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+     transition:         all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+
+}
+
+#button-10:hover {
+
+	/*transform: scale(1);*/
+
+	transform: skew(90deg);
+ 
+     -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+     transition:         all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+
 }
 
 
-#button-2:hover::after {
-	content: 'this text changes on hover';
-	color: red;
-}
+
+
+
+
+
