@@ -6,10 +6,6 @@
 	background-color: #FF5733;
 }
 
-body {
-	font-family: helvetica, arial, sans-serif;
-}
-
 /* container */
 
 .container {
@@ -19,8 +15,8 @@ body {
 /* items */
 
 .item {
-	width: 300px;
-    height: 300px;
+	width: 100px;
+    height: 100px;
     border-radius: 50%;
 	background: orange;
 	color: yellow;
@@ -41,7 +37,19 @@ body {
 
 }
 
+.title{
+
+	position: center;
+	padding-top: 30px;
+	text-align: center;
+}
+
 #title {
+
+	font-family: 'Amatic SC', cursive;
+	font-size: 75px;
+	color: white;
+	
 
 }
 
@@ -94,9 +102,7 @@ transition: all 2s ease-in-out;
 
 #button-10:hover {
 
-	/*transform: scale(1);*/
-
-	transform: skew(90deg);
+	transform: scale(.1);
  
      -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
      transition:         all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -104,8 +110,47 @@ transition: all 2s ease-in-out;
 
 }
 
+#button-11:hover {
+
+	transform: skew(30deg);
+ 
+     -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+     transition:         all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
 
 
+
+#button-12:hover {
+
+	transform: skew(90deg);
+ 
+    -webkit-transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition:         all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+}
+
+#button-13:hover {
+
+	transform: scale(2);
+ 	opacity: 0;
+ 
+     -webkit-transition: all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition:         all 600ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+
+}
+
+#button-14:hover {
+
+	transform: scale(2);
+ 	opacity: 0;
+
+ -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition:         all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); 
+
+
+}
 
 
 

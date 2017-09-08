@@ -84,3 +84,26 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function(){
+
+    $('#button-15').click(function(){
+        alert("im so proud of you.");
+    });
+});
+
+$(document).ready(function(){
+
+    $('#button-16').click(function(){
+        $('#button-16').hide(1000);
+    });
+});
+
+$(document).ready(function(){
+	
+    $('#button-17').click(function(){
+        $('#button-17').hide(10000);
+        
+    });
+});
+
+
