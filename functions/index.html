@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>functions</title>
+	<link rel="stylesheet" href="assets/main.css" type="text/css" />
+</head>
+
+<body>
+		<p id="cakeBox"></p>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript">
+	jQuery("#cakBox").css({
+
+			fontSize: '10px',
+			// property2: 'value2'
+	});
+	//alert("Hello");
+	//makeCake();
+	//alert (makeCake());
+	document.getElementById("cakeBox").innerHTML=makeCake();
+
+
+	function makeCake(){
+		var cake ="";
+		cake += "llll \n";
+		cake += "=====\n";
+		cake += "=====\n";
+		cake += "TOTALLY RAD ≈≈≈"
+		//alert(cake);
+		return cake;
+	}
+
+</script>
+</body>
+</html>

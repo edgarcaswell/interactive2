@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="assets/main.css" type="text/css" />
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  #test {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+  }
+  #blue { 
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: relative;
+  }
+  #toggle {
+    width: 100px;
+    height: 100px;
+    background: white;
+    padding-left: 100px;
+    position: relative;
+  }
+  #yellow {
+
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+  $( function() {
+    $( "#test" ).draggable();
+  } );
+  </script>
+
+  <script>
+  $( function() {
+    $( "#blue" ).draggable();
+  } );
+  </script>
+
+  <script>
+  $( function() {
+    $( "#yellow" ).draggable();
+  } );
+  </script>
+
+  <script>
+$( document ).click(function() {
+  // $( "#toggle" ).toggle( "bounce", { times: 3 }, "slow" );
+  $( "#toggle" ).animate({ top: '-=50px' }, 600, 'easeInOutBack');
+
+
+
+
+});
+</script>
+
+</head>
+<body>
+ 
+<div id="test"> </div>
+<div id="blue"> </div>
+<div id="yellow"> </div>
+<div id="toggle"> </div>
+  
+ 
+ 
+</body>
+</html>
