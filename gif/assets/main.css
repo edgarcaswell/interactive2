@@ -1,12 +1,27 @@
 
-img{
-    width:400px;
-    height:400px;
-    padding-left:500px;
-    padding-top:200px;
+#title{
+
+	width:200px;
+	height:200px;
+	padding-top:25px;
+	padding-left:575px;
+	position:absolute; 
 }
 
-#play{
 
-	
+#cat{
+    width:800px;
+    height:800px;
+    padding-left:0px;
+    padding-top:100px;
+    position: absolute;
 }
+
+#kid{
+	width:800px;
+    height:800px;
+    padding-left: 550px;
+    padding-top:100px;
+    position: absolute;
+}
+
