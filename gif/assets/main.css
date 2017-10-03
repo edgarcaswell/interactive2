@@ -17,6 +17,14 @@
     position: absolute;
 }
 
+#cat2{
+    width:800px;
+    height:800px;
+    padding-left:0px;
+    padding-top:100px;
+    position: absolute;
+}
+
 #kid{
 	width:800px;
     height:800px;
@@ -25,3 +33,7 @@
     position: absolute;
 }
 
+#bff{
+
+    padding-top:100px;
+}
