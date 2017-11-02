@@ -1,4 +1,27 @@
-var images = ["cat.svg", "cat2.svg", "cat.svg"];
+$(document).ready(function(){
+
+  // array of images
+  var images = ["image1.svg", "image1.svg", "image1.svg"];
+  // index of image in images array
+  var currentImage = 0;
+
+  function goNext(){
+    currentImage += 1;
+
+    //loop back to the first image
+    if(currentImage >= images.length) {
+        currentImage = 0;
+    }
+
+    $("#hair").css("background-image" : "url(" + images[currentImage] +")");
+
+  }
+
+
+
+});
+
+/* var images = ["cat.svg", "cat2.svg", "cat.svg"];
 var currentImage = 0; //defaults to image1.jpg
 
 function goNext() {
@@ -24,7 +47,7 @@ var images = ["http://www.maniacworld.com/squirrel-vs-penguin.jpg", "http://uplo
      function changeImage(){
          clicks++;
          img = images[clicks % images.length];
-         $("#image").attr("src", img);
+         // $("#image").attr("src", img);
      }
 
          //Declare an image array same as calling new Array();
@@ -56,4 +79,4 @@ var images = ["http://www.maniacworld.com/squirrel-vs-penguin.jpg", "http://uplo
         //Use a modulus
         this.src = img[counter % img.length];
       }
-    }
+    } */
