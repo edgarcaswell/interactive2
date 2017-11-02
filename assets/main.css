@@ -1,6 +1,24 @@
 
+.a{
 
-#Exercises{
+	background-color: blue;
+	width: 100vw;
+	height: auto;
+}
+.Exercises{
 
 	font-family: Helvetica;
+	font-size: 25px;
+}
+
+.Presentation{
+
+	font-family: Helvetica;
+	font-size: 25px;
+}
+
+.Projects{
+
+	font-family: Helvetica;
+	font-size: 25px;
 }
