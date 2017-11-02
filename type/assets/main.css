@@ -51,7 +51,7 @@ body{
 
 .container:hover {
     margin-bottom: 300px;
-    transform: rotate(1440deg);
+    transform: rotate(360deg);
     -webkit-transition: all .4s ease-in-out;
 -moz-transition: all .4s ease-in-out;
 -ms-transition: all .4s ease-in-out;
