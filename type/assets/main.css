@@ -54,6 +54,7 @@ body{
     margin-top: ;
     transform: scaleY(1.7);
     transform: scaleX();
+    transform: skew(5deg)
     opacity: 1;
     -webkit-transition: all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
   transition:         all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
@@ -67,7 +68,7 @@ body{
     width: 243px;
     
 }
-.containers:hover {
+/*.containers:hover {
     margin-top: ;
     transform: scaleY(1);
     transform: scaleX(.5);
@@ -75,7 +76,7 @@ body{
     -webkit-transition: all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
   transition:         all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
 
-}
+}*/
 
 .a{
     margin-top: 600px;
@@ -123,7 +124,23 @@ transition: all 2s ease-in-out;
     /* border-top-left-radius: 15px; */
     border-bottom-left-radius: 15px;
 
+
 }
+
+.rect-1:hover {
+
+        background-color: white;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    border-top-right-radius: 35px;
+    /* border-top-left-radius: 15px; */
+    border-bottom-left-radius: 15px;
+     -webkit-transition: all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  transition:         all 600ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+
+}
+
 
 
  .rect-2{
@@ -134,6 +151,20 @@ transition: all 2s ease-in-out;
     position: relative;
     left: 80px;
 }
+
+.rect-2:hover {
+
+           background-color: white;
+    width: 20px;
+    height: 150px;
+    position: relative;
+    left: 80px;
+    -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
  .rect-3{
 
 	    background-color: white;
@@ -142,7 +173,10 @@ transition: all 2s ease-in-out;
     position: relative;
     left: 80px;
     border-bottom-left-radius: 35px;
+
 }
+
+
  .rect-4{
 
 	       background-color: #086AFF;
@@ -201,6 +235,19 @@ transition: all 2s ease-in-out;
     top: -274px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+
+}
+
+.bar:hover {
+
+    background-color: white;
+    position: relative;
+    width: 20px;
+    height: 5000px;
+    top: -274px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 
 }
 
