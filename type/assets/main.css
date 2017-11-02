@@ -238,18 +238,6 @@ transition: all 1s ease-in-out;
 
 }
 
-.bar:hover {
-
-    background-color: white;
-    position: relative;
-    width: 20px;
-    height: 5000px;
-    top: -274px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-
-
-}
 
 .bar2{
 
