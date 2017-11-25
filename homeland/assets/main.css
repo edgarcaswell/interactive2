@@ -1,0 +1,84 @@
+body{
+
+	margin: 0;
+}
+#white {
+
+    position: absolute;
+    margin-top: -824px;
+}
+#title{
+
+	font-family: Helvetica;
+	font-size: 13vw;
+	position: absolute;
+	color: black;
+	font-weight: bold;
+	top: 26vw;
+	left:8vw;
+	z-index:1;}
+
+#title2{
+
+	font-family: Helvetica;
+	font-size: 13vw;
+	position: absolute;
+	color:white;
+	font-weight: bold;
+	top: 26vw;
+	left:8vw;
+	z-index:0;
+}
+
+#sfmoma{
+
+	position: absolute;
+    width: 97px;
+    height: 39px;
+    top: 59vw;
+    left: 90vw;
+    z-index: 0;
+}
+
+#larrysultan{
+
+	    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2vw;
+    color: white;
+    top: 25.8vw;
+    left: 8.8vw;
+    position: absolute;
+
+}
+
+#larrysultan2{
+
+	 font-family: Helvetica;
+    font-weight: bold;
+    font-size: 2vw;
+    color: black;
+    top: 25.8vw;
+    left: 8.8vw;
+    position: absolute;
+
+}
+/*
+#background{
+
+	background-color: white;
+	width: 100vw;
+	height: 1000vh;
+}*/
+
+#homeland2{
+
+	margin-top: 400px;
+	width: 100vw;
+	height:auto;
+
+
+	/*width: 50vw;
+	height: 50vh;
+	position: absolute;*/
+}
