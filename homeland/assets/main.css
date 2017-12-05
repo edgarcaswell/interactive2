@@ -5,7 +5,7 @@ body{
 #white {
 
     position: absolute;
-    margin-top: -1624px;
+    margin-top: -1604px;
     width: auto;
     height: auto;
 }
@@ -16,7 +16,7 @@ body{
 	font-size: 75px;
 	color: #ff554d;
 	font-weight: lighter;
-	font-style: italic;
+	font-style: ;
 	height:auto;
 	position: absolute;
 	margin-left: 20px;
@@ -26,23 +26,23 @@ body{
 #underline{
 
 	background-color: #ff554d;
-	height: 6px;
+	height: 4px;
 	width: 1385px;
 	position: absolute;
 	margin-left: 20px;
-	margin-top: 100px;
+	margin-top: 105px;
 }
 
 
 #text3{
 	
 	font-family: 'Inconsolata', monospace;
-	font-size: 52px;
+	font-size: 35px;
 	color: gray;
 	font-weight: lighter;
 	font-style: ;
 	height:auto;
-	width: 1800px;
+	width: 1400px;
 	position: absolute;
 	margin-left: 20px;
 	margin-top: 120px;
