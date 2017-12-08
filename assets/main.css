@@ -5,6 +5,16 @@ body{
 
 }
 
+#window{
+
+	position: absolute;
+    height: 807px;
+    width: auto;
+    top: 30px;
+    left: 769px;
+
+}
+
 
 .Exercises{
 
@@ -14,11 +24,11 @@ body{
 
 	color: white;
 
-	font-family: Helvetica;
+	font-family:Andale Mono;
 
 	font-weight: bold;
 
-	font-style: italic;
+	font-style: ;
 
 	font-size: 40px;
 
@@ -31,11 +41,11 @@ body{
 
 	color: white;
 
-	font-family: Helvetica;
+	font-family: Andale Mono;
 
 	font-weight: bold;
 
-	font-style: italic;
+	font-style: ;
 
 	font-size:40px;
 
